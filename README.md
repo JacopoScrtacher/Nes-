@@ -14,4 +14,4 @@ Here are is some generic info about our system:
 
 Comment: No don't run it on your pc, beacouse of leak of drivers!
 
-Link: PassyOSDevWebsite.com
+Link: https://jacoposcrtacher.github.io/NewPassyOSWebsite/
