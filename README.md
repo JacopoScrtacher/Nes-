@@ -1,4 +1,4 @@
-# Welkom to PassyOS!
+# Welkom to PassyOS Website!
 
 A open source OS, build in C#!
 
@@ -12,4 +12,6 @@ Here are is some generic info about our system:
 | `🟧` | Has the system a stable filesystem? |
 | `🟨` |  Is the system safe enough to run on a pc(personal computer) ?  |
 
-Comment: No don't run it on your pc, beacouse of leak of drivers! | Comment |
+Comment: No don't run it on your pc, beacouse of leak of drivers!
+
+Link: PassyOSDevWebsite.com
