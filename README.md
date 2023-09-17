@@ -16,4 +16,4 @@ Comment: No don't run it on your pc, beacouse of leak of drivers!
 
 Link: https://jacoposcrtacher.github.io/PassyOSDevWebsite/
 
-https://discord.com/api/guilds/1152952270007312424/widget.json
+https://invidget.switchblade.xyz/p8uuZPa7
