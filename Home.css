@@ -46,8 +46,8 @@
 
 .u-section-1 .u-image-1 {
   min-height: 653px;
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://pixabay.com/get/g80a09f44a420c89084f68e8d5c248a58b08c2772e84ca6c2fc567a63bf4696914987c3c9430f5eff642fb4f15f3299e67bc7186569660c0f1d660556ae6cac4c_1280.jpg");
-  background-position: 0% 50%;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/fff.jpg");
+  background-position: 50% 50%;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
@@ -149,6 +149,7 @@
   }
 } .u-section-2 {
   background-image: none;
+  background-position: 50% 50%;
 }
 
 .u-section-2 .u-sheet-1 {
