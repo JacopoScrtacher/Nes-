@@ -41662,10 +41662,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 /*end-variables sitestylecss*/
- .u-header {
-  background-image: none;
-}
-
 .u-header .u-sheet-1 {
   min-height: 156px;
 }
@@ -41681,64 +41677,143 @@ a.u-link.u-text-hover-grey-90:hover {
   height: 100%;
 }
 
+.u-header .u-list-1 {
+  width: 415px;
+  margin: -60px auto 60px 79px;
+}
+
+.u-header .u-repeater-1 {
+  min-height: 56px;
+  grid-template-columns: calc(33.3333% - 3.33333px) calc(33.3333% - 3.33333px) calc(33.3333% - 3.33333px);
+  grid-gap: 5px 5px;
+  grid-auto-columns: calc(33.3333% - 3.33333px);
+}
+
+.u-header .u-container-layout-1 {
+  padding: 10px;
+}
+
 .u-header .u-menu-1 {
   font-size: 1rem;
   letter-spacing: 0px;
-  margin: -50px auto 0 88px;
+  margin: 0 auto;
 }
 
 .u-header .u-nav-1 {
   font-size: 1rem;
-  background-image: none;
 }
 
 .u-header .u-nav-2 {
   font-size: 1rem;
   letter-spacing: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-header .u-container-layout-2 {
+  padding: 10px;
 }
 
 .u-header .u-menu-2 {
-  margin: -36px auto 60px 219px;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  margin: 0 auto;
 }
 
 .u-header .u-nav-3 {
-  background-image: none;
+  font-size: 1rem;
 }
 
 .u-header .u-nav-4 {
-  font-size: 1.25rem;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-header .u-container-layout-3 {
+  padding: 10px;
+}
+
+.u-header .u-menu-3 {
+  font-size: 1rem;
+  letter-spacing: 0px;
+  margin: 0 auto;
+}
+
+.u-header .u-nav-5 {
+  font-size: 1rem;
+}
+
+.u-header .u-nav-6 {
+  font-size: 1rem;
+  letter-spacing: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.u-header .u-gallery-nav-1 {
+  position: absolute;
+  left: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.u-header .u-gallery-nav-2 {
+  position: absolute;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+}
+.u-header .u-sheet-2 {
+  min-height: 100px;
+}
+.u-header .u-sheet-3 {
+  min-height: 100px;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
     width: 66px;
   }
 
-  .u-header .u-menu-1 {
-    width: auto;
-    margin-top: -50px;
-    margin-left: 88px;
+  .u-header .u-list-1 {
+    margin-left: 79px;
   }
 
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
-  }
-
-  .u-header .u-menu-2 {
-    margin-top: -36px;
-    margin-left: 219px;
+  .u-header .u-repeater-1 {
+    grid-auto-columns: calc(33.333333333333336% - 3.33333px);
   }
 }
+
+
+@media (max-width: 991px) {
+  .u-header .u-repeater-1 {
+    grid-template-columns: calc(50% - 2.5px) calc(50% - 2.5px);
+    grid-auto-columns: calc(50% - 2.4999975px);
+  }
+}
+
 
 @media (max-width: 767px) {
-  .u-header .u-menu-2 {
-    margin-left: 164px;
+  .u-header .u-repeater-1 {
+    grid-template-columns: 100%;
+    grid-auto-columns: calc(100% - 0px);
   }
 }
+
+
 @media (max-width: 575px) {
-  .u-header .u-menu-2 {
-    margin-left: 103px;
+  .u-header .u-list-1 {
+    width: 340px;
+    margin-left: 0;
+  }
+
+  .u-header .u-repeater-1 {
+    grid-auto-columns: 100%;
   }
 }
+
+
  .u-footer {
   background-image: none;
 }
